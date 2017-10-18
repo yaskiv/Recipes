@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yaskiv.recipesbybalham">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/prescription_icon_150x150"
+        android:label="@string/app_name_rus"
+        android:supportsRtl="true"
+        android:name=".MyApplication"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Categories"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AllRecipes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Recipe"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Jam"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityForGridViewAfterCategories"
+
+            android:screenOrientation="portrait">
+
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="yaskiv.recipesbybalham.AboutFirmFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/yellow"
+        app:srcCompat="@drawable/footer_logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balham\n – это не просто интернет магазин, где вы сможете приобрести различные виды варенья изготавливаемые из фруктов и ягод, собираемых в высокогорьях Кавказа у самого подножия Эльбруса. \nBalham-это настоящая семья,которая собирает всё сырье и готовит для вас натуральное варенье. В нашем ассортименте:
+\n
+
+&#8226;Варенье из сосновых шишек;\n
+&#8226;Варенье из абрикосов;\n
+&#8226;Варенье из лесной черники;\n
+&#8226;Варенье из дикой малины;\n
+&#8226;Варенье из дикой алычи\n
+&#8226;Варенье из одуванчика;\n
+&#8226;Варенье из облепихи;\n
+&#8226;Варенье из мандаринов;\n
+&#8226;Варенье из липы;\n
+&#8226;Варенье из грецкого ореха.\n
+&#8226;Варенье из барбариса\n
+&#8226;Варенье из фейхоаk\n
+Все фрукты и ягоды для нашего варенья произрастают на экологически-чистых территориях Карачаево-Черкесской республики. И собираются собственноручно, на высокогорных склонах гор где берет своё начало река Кубань, а также его притоки, такие как р. Теберда, р. Учкулан, р.Дуут, р.Худес, р.Джалан Кол, р.Аман Кол.
+\n
+\nМы работаем по всей России и СНГ.
+\n
+
+\nВаренье из дикой малины соотношение ягод 1:0.8 сахара. У дикой малины более ярко выраженный вкус. Путем экспериментов и разных видов уваривания мы научились сохранять малину в варенье целой."
+        android:textStyle="italic"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>
+
+</FrameLayout>
+</ScrollView>

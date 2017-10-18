@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/categori_menu"
+            android:icon="@drawable/book_open"
+            android:title="Рецепты" />
+        <item
+            android:id="@+id/recipes_menu"
+            android:icon="@drawable/equal_box"
+            android:title="Категории" />
+        <item
+            android:id="@+id/asoortiment_menu"
+            android:icon="@drawable/cup_water"
+            android:title="Ассортимент варенья" />
+        <item
+            android:id="@+id/about_menu"
+            android:icon="@drawable/domain"
+            android:title="О нас" />
+        <item
+            android:id="@+id/project_menu"
+            android:icon="@drawable/youtube_play"
+            android:title="О проекте" />
+    </group>
+
+
+
+</menu>
